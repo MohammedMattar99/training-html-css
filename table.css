@@ -1,0 +1,37 @@
+table{
+
+    border: 1px solid black;
+    width: 700px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+table thead td{
+
+    background-color: rgb(53, 48, 48);
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
+
+
+table tbody td{
+    background-color: #eee;
+    border-color: white;
+    padding: 10px;
+}
+
+.View{
+
+    background-color: rgb(101, 101, 248);
+    color: white;
+    border: none;
+}
+
+.Delet{
+
+    background-color: rgb(235, 74, 162);
+    color: white;
+    border: none;
+}

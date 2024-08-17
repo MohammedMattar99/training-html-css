@@ -1,0 +1,16 @@
+.parent{
+    background-color: red;
+    padding: 10px;
+    overflow: hidden;
+
+}
+
+.parent div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #eee;
+    width: calc(95%/4);
+    float: left;
+    margin-left: 1%;
+}

@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+
+div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #eee;
+    float: left;
+    width: calc(94% / 5);
+    margin-left: 1%;
+
+}
+
+
+/*
+
+content width is: 100%
+6 spaces 1% * 6 => 6% from content width
+94% available space
+5 elements the  width is: 94% / 5
+
+*/
+
+/*
+
+content width is: 100%
+6 spaces 15px * 6 => 90px from content width
+100%-90px available space
+5 elements the  width is: (100%-90px) / 5
+
+*/

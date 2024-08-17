@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <style>
+
+        div.parent {
+            background: #00f;
+            color: #fff;
+            padding: 10px;
+        }
+
+        div.parent div {
+            background: #f00;
+            color: #fff;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        div.parent p {
+            background: #080;
+            color: #fff;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        p:first-child {
+            background: black;
+            color: red;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        div.parent div:before {
+            content: "hello mosa mosss mosakdv ";
+            font: italic bold 10px arial;
+            background: black;
+        }
+
+        a[target="_blank"] {
+            color: #080;
+        }
+
+        img[title="image2"] {
+            border-radius: 10px;
+        }
+
+        input[type="text"] {
+            color: #00f;
+            background-color: gray;
+        }
+
+        /* Media query for mobile devices (max-width: 768px) */
+        @media  screen and (max-width: 768px) {
+            body {
+                display: block;
+                margin: 10px 0;
+                padding: 10px;
+                color: #f00;
+                background-color: gray;
+            }
+
+            /* Additional styles for mobile */
+            div.parent {
+                background: #008080;
+            }
+
+            div.parent div {
+                background: #800080;
+                padding: 20px;
+            }
+
+            input[type="text"] {
+                background-color: #eee;
+                color: #000;
+            }
+        }
+    </style>
+    <body>
+
+        <div class="parent">This is parent div
+            <p>This is child paragraph</p>
+            <p>This is child paragraph</p>
+            <div>This is child div</div>
+            <div>This is child div</div>
+        </div>
+        <br>
+        <br>
+        <a href="">Google</a>
+        <a href="#">Testing</a>
+        <br>
+        <br>
+
+        <input type="text" name="user">
+        <input type="password" name="pass">
+        <input type="search" name="ser">
+
+    </body>
+</html>
